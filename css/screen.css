@@ -12,6 +12,8 @@ body{
 }
 h1{
     font-size:.8em;
+    position: relative;
+    left: 20%;
 }
 h3{
     font-size: .8em;
@@ -67,6 +69,8 @@ a:hover {
 }
 h2{
     font-size: 1em;
+    position: relative;
+    left: 35%;
 }
 div[id="home"]{
      width: 48.719px;
