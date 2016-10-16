@@ -1,0 +1,123 @@
+
+/*change the box moddel*/
+html *{
+    box-sizing: border-box;
+}
+*:before, *:after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 24px;
+    background-color: aliceblue;
+}
+h1{
+    font-size:.8em;
+}
+h3{
+    font-size: .8em;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+p{
+    padding: 5px;
+    border: 0px;
+    margin: 5px;
+}
+header{
+    width: 100%;
+    border:1px solid#000000;
+    color: whitesmoke;
+    background-color: darkslateblue;
+    position: relative;
+    top:1%;
+    margin: 0%;
+}
+img[id="home_icon"]{
+    width:32px;
+    height:35px;
+    position: absolute;
+    left:16%;
+    top:12%;
+}
+nav{
+    background-color:whitesmoke;    
+}
+section[id="curent_content"]{
+    padding: 0%;
+    margin: 0%;
+    background-color:darkslategray;
+    color: whitesmoke;
+    box-sizing: border-box;
+}
+
+a:link{
+    width:32px;
+    height:35px;
+    resize: vertical;
+    color: black;
+    
+}
+a:visited {
+    color:cadetblue;
+}
+a:hover {
+    color: aquamarine;
+    background-color: darkseagreen;
+}
+h2{
+    font-size: 1em;
+}
+div[id="home"]{
+     width: 48.719px;
+    height: 48.719px;
+    background-color: whitesmoke;
+    position: absolute;
+    left:2.7%;
+    top:1.5%;
+    border: 1px solid#000000;
+    
+}
+div[id="search"]{
+    width: 48.719px;
+    height: 48.719px;
+    position:absolute;
+    right:2.4%;
+    top:1.5%;
+}
+div[id="temp"]{
+    width:97%;
+    position:relative;
+    left:5px;
+    top:0px;
+}
+div[id="wind_speed"]{
+    position:absolute;
+    right:5%;
+    top:200px;
+}
+img[id="search_icon"]{
+    width: 47.719px;
+    height: 47.719px;
+}
+img[id="summary"]{
+    position:relative;
+    right:5px;
+    top:5px;
+}
+img[id="wire_frame"]{
+    width:320px
+}
+p[id="current"]{
+   font-size: 2em;
+}
+p[class="high_low"]{
+   font-size: .75em;
+}
+li[class="links"]{
+    
+}
+li[id="greenville"]
+li[id="springfield"]
+li[id="hourly"]
+
