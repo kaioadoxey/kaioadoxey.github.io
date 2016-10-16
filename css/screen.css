@@ -105,6 +105,11 @@ img[id="summary"]{
     right:5px;
     top:5px;
 }
+div[class="summary"]{
+    position: absolute;
+    right:5px;
+    top:5px;
+}
 img[id="wire_frame"]{
     width:320px
 }
