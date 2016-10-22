@@ -69,9 +69,7 @@ div[id="other_content"]{
 a:link[id="home1"]{
     color: floralwhite;
 }
-a:hover[id="home1"]{
-    color: aliceblue:
-}
+
 a:visited[id="home1"]{
     color: aliceblue;
 }
