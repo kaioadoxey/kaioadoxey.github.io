@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title> Weather | Franklin &#x2600;</title>
-        <link href="/css/screen.css" type="text/css" rel="stylesheet" media="screen">
+        <link href="/css/weather.css" type="text/css" rel="stylesheet" media="screen">
         <meta name="viewport" content= "width=device-width">
     </head>
     <body>
@@ -12,31 +12,69 @@
         </header>
         <nav>
             <div id="home">
-            <a href = /index.html title = "Home"><img id="home_icon" alt="the logo for kaioadoxey.github.io" src="/images/069673-blue-metallic-orb-icon-alphanumeric-letter-k.png"></a>
+            <a href = /index.html title = "Home"><div class="small_hide">kaioadoxey.github.io</div><img id="home_icon" alt="the logo for kaioadoxey.github.io" src="/images/069673-blue-metallic-orb-icon-alphanumeric-letter-k.png"></a>
             </div>
-            <div id=search><img id="search_icon" alt="search" src="/images/search_icon.png"></div>
+            <div id=search><img id="search_icon" alt="search" src="/images/search-icon-white.png"></div>
         </nav>
                 <main>
                     <section id="curent_content">
                         <h2>Franklin</h2>
                         <div id="temp">
                             <div class="summary"><img id="Summary" alt="weather summary photo" src="/images/sunny_icon.png" style="width:50px;height:50px"></div>
-                            <p id="current">75 &#8457;</p>
-                            <p class="high_low">90 &#8457; / 60 &#8457;</p>
-                            <p>Sunny</p>
-                            
+                            <p id="current">75&#176;<span id="f">f</span></p>
+                            <p class="high_low">90&#176;f / 60&#176;f</p>
+                            <p id="sun">Sunny</p>
                         </div>
                         <div id="wind_speed">
                             <h3>Wind Speed</h3>
                             <p class="high_low">1-5 mph</p>
+                            <p class="high_low">Southwest</p>
                         </div>
                     </section>
+                    <section class="small_hide">
+                        <h2>hourly</h2>
+                        <table>
+                            <tr>
+                                <th>Time</th>
+                                <th class="hr_temp">Temperature</th>
+                            </tr>
+                            <tr><td>12:00 am <span class="sum">&#9789;</span></td><td class="hr_temp">67&#176;f</td></tr>
+                            <tr><td>1:00 am <span class="sum">&#9789;</span></td><td class="hr_temp">67&#176;f</td></tr>
+                            <tr><td>2:00 am <span class="sum">&#9789;</span></td><td class="hr_temp">69&#176;f</td></tr>
+                            <tr><td>3:00 am <span class="sum">&#9789;</span></td><td class="hr_temp">69&#176;f</td></tr>
+                            <tr><td>4:00 am <span class="sum">&#9789;</span></td><td class="hr_temp">69&#176;f</td></tr>
+                            <tr><td>5:00 am <span class="sum">&#9789;</span></td><td class="hr_temp">70&#176;f</td></tr>
+                            <tr><td>6:00 am <span class="sum">&#9789;</span></td><td class="hr_temp">69&#176;f</td></tr>
+                            <tr><td>7:00 am <span class="sum">&#9728;</span></td><td class="hr_temp">72&#176;f</td></tr>
+                            <tr><td>8:00 am <span class="sum">&#9728;</span></td><td class="hr_temp">74&#176;f</td></tr>
+                            <tr><td>9:00 am <span class="sum">&#9728;</span></td><td class="hr_temp">77&#176;f</td></tr>
+                            <tr><td>10:00 am <span class="sum">&#9728;</span></td><td class="hr_temp">79&#176;f</td></tr>
+                            <tr><td>11:00 am <span class="sum">&#9728;</span></td><td class="hr_temp">81&#176;f</td></tr>
+                            <tr><td>12:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp">84&#176;f</td></tr>
+                            <tr><td>1:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp">86&#176;f</td></tr>
+                            <tr><td>2:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp">88&#176;f</td></tr>
+                            <tr><td>3:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp">90&#176;f</td></tr>
+                            <tr><td>4:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp">90&#176;f</td></tr>
+                            <tr><td>5:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp">85&#176;f</td></tr>
+                            <tr><td>6:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp">83&#176;f</td></tr>
+                            <tr><td>7:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp">79&#176;f</td></tr>
+                            <tr><td>8:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp">74&#176;f</td></tr>
+                            <tr><td>9:00 pm <span class="sum">&#9789;</span></td><td class="hr_temp">70&#176;f</td></tr>
+                            <tr><td>10:00 pm <span class="sum">&#9789;</span></td><td class="hr_temp">68&#176;f</td></tr>
+                            <tr><td>11:00 pm <span class="sum">&#9789;</span></td><td class="hr_temp">66&#176;f</td></tr>
+                        </table>
+                    </section>
                     <section id="links">
-                        <h2>Links</h2>
+                        <div id="other_content">
+                            <h2>Franklin, ID</h2>
+                            <p>Longitude: -111.803757</p>
+                            <p>Latitude: 42.011902</p>
+                            <p>zip: 83237</p>
+                        </div>
                         <ul>
-                            <li class="links" id="greenville"><a href = "#" title = "Greenville Weather">Greenville Weather</a></li>
-                            <li class="links" id="springfield"><a href = "#" title = "Springfield Weather">Springfield Weather</a></li>
-                            <li class="links" id="hourly"><a href = "#" title = "Hourly Weather">Hourly Weather</a></li>
+                            <li class="links" id="greenville"><a href = "#" title = "Greenville Weather"><span class="link_box">Greenville Weather</span></a></li>
+                            <li class="links" id="springfield"><a href = "#" title = "Springfield Weather"><span class="link_box">Springfield Weather</span></a></li>
+                            <li class="links" id="hourly"><a href = "#" title = "Hourly Weather"><span class="link_box">Hourly Weather</span></a></li>
                         </ul>
                     </section>
                     <section>
