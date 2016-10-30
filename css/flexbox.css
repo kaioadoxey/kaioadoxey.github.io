@@ -1,6 +1,5 @@
 @media screen and (max-width: 602px) and (min-width: 0px){
     #small_hide1{display: none;}
-    .small_hide { display: none; }  
     #wire_frame_large{display: none;}
     #wire_frame_medium{display: none;}
     #forcast{
@@ -251,7 +250,7 @@ p{
      text-align: center;
      overflow: scroll;
     width: 100%;
-    height: 700px;
+    height: 300px;
 }
  a{
         color: black;
@@ -288,6 +287,9 @@ p{
         font-size: .6em;
         border: none;
         border-left: 1px solid black;
+    }
+    .small_hide{
+        height: 700px;
     }
     a:link{
         color: floralwhite;
