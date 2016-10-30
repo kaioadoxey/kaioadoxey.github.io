@@ -245,9 +245,7 @@ span[class="link_box"]{
     height: auto;
     border: 1px solid black;
 }
-
-@media screen and (max-width: 820px) and (min-width: 602px){
-    section[class="small_hide"]{
+ section[class="small_hide"]{
         float: right;
         background-color:aliceblue;
         border: 1px solid #000000;
@@ -256,7 +254,10 @@ span[class="link_box"]{
         margin-top: 1.5%;
         text-align: center;
         overflow: scroll;
-    }
+}
+
+@media screen and (max-width: 820px) and (min-width: 602px){
+   
     #small_hide1{
         position: relative;
         top:7px;
@@ -284,6 +285,7 @@ span[class="link_box"]{
         position: relative;
         left: 50px;
     }
+    
     .wind{
         margin-left:50px;
         margin-right: 50px;

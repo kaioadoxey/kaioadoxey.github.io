@@ -4,40 +4,52 @@
         <meta charset="utf-8">
         <title> Franklin | Weather </title>
         <link rel="icon" type="image/png" href="/images/weather_icon.png"/>
-        <link href="/css/weather.css" type="text/css" rel="stylesheet" media="screen">
+        <link href="/css/flexbox.css" type="text/css" rel="stylesheet" media="screen">
         <meta name="viewport" content= "width=device-width">
     </head>
     <body>
+        <div id="wrapper">
         <header>
             <h1>Kaioadoxey.github.io</h1>
         </header>
-            <div id="border">
         <nav>
+            <div id="top_nav">
             <div id="home">
                 <a id="home1" href = /index.html title = "Home"><div id="small_hide1">Home</div><div id=home2><img id="home_icon" alt="the logo for kaioadoxey.github.io" src="/images/069673-blue-metallic-orb-icon-alphanumeric-letter-k.png"></div></a>
             </div>
-            <div id=search><img id="search_icon" alt="search" src="/images/search-icon-white.png"></div>
-            
+            <div id=search><img id="search_icon" alt="search" src="/images/search-icon-white.png"></div>            
             <form>
                 <input id='txtSearch' type="text" name="search" placeholder="Search..">
             </form>
-        </nav>
             </div>
-                <main>
+             <ul id="nav">
+                <li class="links" id="greenville"><a href = "/homework/greenville_weather.html" title = "Greenville Weather"><span class="link_box">Greenville Weather</span></a></li>
+                <li class="links" id="springfield"><a href = "#" title = "Springfield Weather"><span class="link_box">Springfield Weather</span></a></li>
+                <li class="links" id="hourly"><a href = "/homework/franklin_weather.html" title = "Franklin Weather"><span class="link_box">Franklin Weather</span></a></li>
+                <li id="news" class="links"><a href = "https://weather.com/weather/tenday/l/Franklin+ID+83237:4:US" title = "News Link"><span class="link_box">News</span></a></li>
+            </ul>            
+        </nav>
+            <main>
                     <section id="curent_content">
                         <h2 id="title">Franklin</h2>
+                        <div id="content">
                         <div id="temp">
-                            <div class="summary"><img id="Summary" alt="weather summary photo" src="/images/sunny_icon.png" style="width:50px;height:50px"></div>
-                            <p id="current">75<span id="f">&#176;f</span></p>
-                            <p class="high_low">90&#176;f / 60&#176;f</p>
+                            <p id="current">75<span id="f">&#176;F</span></p>
+                            <p class="high_low">90&#176;F / 60&#176;F</p>
                             <p id="sun">Sunny</p>
                         </div>
                         <div id="wind_speed">
+                            <div class="summary"><img id="Summary" alt="weather summary photo" src="/images/sunny_icon.png" style="width:50px;height:50px"></div>
                             <h3>Wind Speed</h3>
                             <p class="wind">1-5 mph</p>
                             <p class="wind">Southwest</p>
+                            <p class= "wind">percip: 0%</p>
+                        </div>
                         </div>
                     </section>
+            </main>
+            <div id="main1">
+            <div id="main">
                     <section class="small_hide">
                         <div class="center">
                         <h2>hourly</h2>
@@ -73,26 +85,8 @@
                         </table>
                         </div>
                     </section>
-                    <section id="links">
-                        <div id="other_content">
-                            <h2>Franklin, ID</h2>
-                            <p>Longitude: -111.803757</p>
-                            <p>Latitude: 42.011902</p>
-                            <p>zip: 83237</p>
-                        </div>
-                        <ul id="nav">
-                            <li class="links" id="greenville"><a href = "#" title = "Greenville Weather"><span class="link_box">Greenville Weather</span></a></li>
-                            <li class="links" id="springfield"><a href = "#" title = "Springfield Weather"><span class="link_box">Springfield Weather</span></a></li>
-                            <li class="links" id="hourly"><a href = "#" title = "Franklin Weather"><span class="link_box">Franklin Weather</span></a></li>
-                            <li id="news" class="links"><a href = "https://weather.com/weather/tenday/l/Franklin+ID+83237:4:US" title = "News Link"><span class="link_box">News</span></a></li>
-                        </ul>
-                    </section>
-                    <section id="wireframe">
-                        <h2>Wire Frame</h2>
-                        <img id="wire_frame_small" alt="small wire frame" src="/images/mobile_wire_frame.JPG">
-                        <img id="wire_frame_medium" alt="medium wire frame" src="/images/medium_revised.JPG">
-                        <img id="wire_frame_large" alt="large wire frame" src="/images/large_revised.JPG">
-                    </section>
+            </div>
+            <aside>
                     <section id="map">
                         <h2>map</h2>
                         <img id="franklin" alt="feanklin map" src="/images/fanklin_idaho_map.png">
@@ -100,10 +94,24 @@
                     <section id="forcast">
                         <div>
                             <h2>10 Day Forcast</h2>
-                            <a class="links" href="https://weather.com/weather/tenday/l/Franklin+ID+83237:4:US" title = "Franklin 10 Day Forcast">Fanklin 10 day Forcast</a>
+                            <a class="forcast" href="https://weather.com/weather/tenday/l/Franklin+ID+83237:4:US" title = "Franklin 10 Day Forcast">Fanklin 10 day Forcast</a>
                         </div>
                     </section>
-                </main>
+            </aside>
+                
+            <div id="wireframe">
+                <div id="other_content">
+                    <h2>Franklin, ID</h2>
+                    <p>Longitude: -111.803757</p>
+                    <p>Latitude: 42.011902</p>
+                    <p>zip: 83237</p>
+                </div>
+                <h2>Wire Frame</h2>
+                <img id="wire_frame_small" alt="small wire frame" src="/images/mobile_wire_frame.JPG">
+                <img id="wire_frame_medium" alt="medium wire frame" src="/images/medium_revised.JPG">
+                <img id="wire_frame_large" alt="large wire frame" src="/images/large_revised.JPG">
+            </div>
+            </div>
         <footer>
             <ul>
 				<li>&copy;2016</li>
@@ -111,9 +119,10 @@
 					Kaio Doxey
 				</li>
 				<li>
-                    Last Updated: October 22, 2016
+                    Last Updated: October 29, 2016
 				</li>
 			</ul>
-        </footer>        
+        </footer> 
+        </div>
     </body>
 </html>
