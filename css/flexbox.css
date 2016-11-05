@@ -135,7 +135,7 @@ section[id="curent_content"]{
 #temp{
     width: 40%;
     text-align: center;
-    align-self: flex-end;
+    align-self: flex-end; 
 }
 #wind_speed{
     width:  40%;
@@ -370,7 +370,8 @@ p{
         width: 60%;
     }
   #home{
-    width: 10%;
+    width: 15%;
+      
     }
     #home2{
         position: absolute;
@@ -421,5 +422,10 @@ p{
     }
     .small_hide{
         height: 600px;
+    }
+    #small_hide1{
+        position: relative;
+        top:7px;
+        left:5px;
     }
 }
