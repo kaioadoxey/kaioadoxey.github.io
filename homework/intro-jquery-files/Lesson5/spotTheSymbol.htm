@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Spot the Symbol</title>
 	<link rel="stylesheet" href="css/spotthesymbol.css">
-	<script src="js/jquery-3.0.0.min.js"></script>
+	<script src="/js/jquery-3.1.1.min.js"></script>
 	<script>
 		$(function () {
 			// This function calculates and returns the distance value
@@ -18,6 +18,37 @@
 			var statusDisplay = $('.status')
 
 			// Your jQuery Code goes here
+            
+            $('.container').on({
+                mousemove: function(evt){
+                    $('.coordinates').html(evt.offsetX + ',' + evt.offsetY);
+                    var distance = calculateDistance(evt.offsetX, evt.offsetY);
+                    
+                    if (distance > 30){
+                        statusDisplay.html("you're too far off !!");  
+                    } else if (distance > 20 && distance < 30){
+                        statusDisplay.html("you're close !")
+                    } else if (distance > 10 && distance < 20){
+                        statusDisplay.html("you're very close !!");
+                    } else if (distance > 8 && distance < 10){
+                        statusDisplay.html("Almost there !!!!");
+                    } else if (distance > 0 && distance < 8){
+                        statusDisplay.html("yay!!! you Found the Hand !! Now Click !");
+                    }
+                },
+                click: function(evt){
+                    if(calculateDistance(evt.offsetX, evt.offsetY) < 8){
+                        statusDisplay.html("congratulations !! You Won the Game ! ")
+                    } else{
+                        statusDisplay.html("Ooops !! You Lost the Game ! ")
+                    }
+                    $(this).off();
+                },
+                mouseleave: function(){
+                    statusDisplay.html("Find the Hand !");
+                    $('.coordinates').html("0,0");
+                }
+            })
 
 		})
 	</script>
