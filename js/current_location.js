@@ -87,7 +87,7 @@ $(function () {
   var temp21 = data['hourly_forecast']['21']['temp']['english'];
   var temp22 = data['hourly_forecast']['22']['temp']['english'];
   var temp23 = data['hourly_forecast']['23']['temp']['english'];
-      console.log(data);
+ 
       $("#title").html(location);
       $("#current").html(Math.round(temp_f) + "&deg;" + "F");
       $(".high_low").html(high + "&deg;" + "F" + "/" + low + "&deg;" + "F");
