@@ -33,7 +33,7 @@ $(function () {
   var wind = data['current_observation']['wind_mph'];
   var high = data['forecast']['simpleforecast']['forecastday']['0']['high']['fahrenheit'];
   var low = data['forecast']['simpleforecast']['forecastday']['0']['low']['fahrenheit'];
-      console.log(data);
+
       $("#cityDisplay").html(location + ", "+ state);
       $("title").html(location + ", "+ state);
       $("#currentTemp").html(Math.round(temp_f) + "&deg;" + "F");

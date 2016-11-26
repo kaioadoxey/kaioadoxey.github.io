@@ -94,7 +94,7 @@ $(function () {
       $("#Summary").html(condition);
       $("#sun").html(summary);
       $("#wind").html(wind + " mph");
-      $("#Summary").attr('src', 'http://icons.wxug.com/i/c/i/'+ condition +'.gif');
+      $("#Summary").attr('src', 'https://icons.wxug.com/i/c/i/'+ condition +'.gif');
       $("#percip").html("percip: " + percip + "%");
       $("#cityDisplay").html(location + ", "+ state);
       $('#long').html("Longitude: " + long);
