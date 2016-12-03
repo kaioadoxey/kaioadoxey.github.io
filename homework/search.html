@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Greenville | Weather </title>
+        <link rel="icon" type="image/png" href="/images/weather_icon.png"/>
+        <link href="/css/flexbox.css" type="text/css" rel="stylesheet" media="screen">
+        <meta name="viewport" content= "width=device-width">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header id="page-header">
+        </header>
+        <nav id=page-nav>
+        </nav>
+            <main>
+                <section id="searchResults">
+            <h2>Search Results</h2>
+        </section>
+                    <section id="curent_content">
+                        <h1 id="title">Greenville</h1>
+                        <div id="content">
+                        <div id="temp">
+                            <p id="current">70<span id="f">&#176;F</span></p>
+                            <p class="high_low">84&#176;F / 55&#176;F</p>
+                            <p id="sun">Afternoon Thunderstorms</p>
+                        </div>
+                        <div id="wind_speed">
+                            <div class="summary"><img id="Summary" alt="summary photo" src="/images/thunder3_icon.png" style="width:50px;height:50px"></div>
+                            <h3>Wind Speed</h3>
+                            <p id = "wind" class="wind">15-20 mph</p>
+                            <p id = "wind_direction" class="wind">West</p>
+                            <p id= "percip" class= "wind">percip: 70%</p>
+                        </div>
+                        </div>
+                    </section>
+            </main>
+            <div id="main1">
+            <div id="main">
+                    <section class="small_hide">
+                        <div class="center">
+                        <h2>Hourly</h2>
+                        <table>
+                            <tr>
+                                <th>Time</th>
+                                <th class="hr_temp">Temperature</th>
+                            </tr>
+                            <tr><td id="time0">12:00 am <span class="sum">&#9789;</span></td><td class="hr_temp" id="hr_temp0">55&#176;f</td></tr>
+                            <tr><td id="time1">1:00 am <span class="sum">&#9789;</span></td><td class="hr_temp" id="hr_temp1">56&#176;f</td></tr>
+                            <tr><td id="time2">2:00 am <span class="sum">&#9789;</span></td><td class="hr_temp" id="hr_temp2">56&#176;f</td></tr>
+                            <tr><td id="time3">3:00 am <span class="sum">&#9789;</span></td><td class="hr_temp" id="hr_temp3">56&#176;f</td></tr>
+                            <tr><td id="time4">4:00 am <span class="sum">&#9789;</span></td><td class="hr_temp" id="hr_temp4">57&#176;f</td></tr>
+                            <tr><td id="time5">5:00 am <span class="sum">&#9789;</span></td><td class="hr_temp" id="hr_temp5">57&#176;f</td></tr>
+                            <tr><td id="time6">6:00 am <span class="sum">&#9789;</span></td><td class="hr_temp" id="hr_temp6">58&#176;f</td></tr>
+                            <tr><td id="time7">7:00 am <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp7">62&#176;f</td></tr>
+                            <tr><td id="time8">8:00 am <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp8">63&#176;f</td></tr>
+                            <tr><td id="time9">9:00 am <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp9">67&#176;f</td></tr>
+                            <tr><td id="time10">10:00 am <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp10">70&#176;f</td></tr>
+                            <tr><td id="time11">11:00 am <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp11">73&#176;f</td></tr>
+                            <tr><td id="time12">12:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp12">77&#176;f</td></tr>
+                            <tr><td id="time13">1:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp13">80&#176;f</td></tr>
+                            <tr><td id="time14">2:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp14">84&#176;f</td></tr>
+                            <tr><td id="time15">3:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp15">83&#176;f</td></tr>
+                            <tr><td id="time16">4:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp16">83&#176;f</td></tr>
+                            <tr><td id="time17">5:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp17">80&#176;f</td></tr>
+                            <tr><td id="time18">6:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp18">79&#176;f</td></tr>
+                            <tr><td id="time19">7:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp19">74&#176;f</td></tr>
+                            <tr><td id="time20">8:00 pm <span class="sum">&#9728;</span></td><td class="hr_temp" id="hr_temp20">70&#176;f</td></tr>
+                            <tr><td id="time21">9:00 pm <span class="sum">&#9789;</span></td><td class="hr_temp" id="hr_temp21">68&#176;f</td></tr>
+                            <tr><td id="time22">10:00 pm <span class="sum">&#9789;</span></td><td class="hr_temp" id="hr_temp22">60&#176;f</td></tr>
+                            <tr><td id="time23">11:00 pm <span class="sum">&#9789;</span></td><td class="hr_temp" id="hr_temp23">58&#176;f</td></tr>
+                        </table>
+                        </div>
+                    </section>
+            </div>
+            <aside>
+                    <section id="map">
+                        <h2>Satellite Image</h2>
+                        <img id="franklin" alt="City of Greenville Map" src="/images/greenville_map.jpg">
+                    </section>
+                    <section id="forcast">
+                        <div>
+                            <h2>10 Day Forcast</h2>
+                            <a class="forcast" href="https://weather.com/weather/tenday/l/USSC0140:1:US" title = "Franklin 10 Day Forcast">Greenville 10 day Forcast</a>
+                        </div>
+                    </section>
+            </aside>
+                
+            <div id="wireframe">
+                <div id="other_content">
+                    <h2 id="cityDisplay" >Greenville, SC</h2>
+                    <p id = "long">Longitude: -82.362997</p>
+                    <p id = "lat">Latitude: 34.836902</p>
+                    <p id = "zip">zip: 29601</p>
+                </div>
+                <h2>Wire Frame</h2>
+                <img id="wire_frame_small" alt="Small Web Site Design Wire Frame" src="/images/mobile_wire_frame.JPG">
+                <img id="wire_frame_medium" alt="Medium Web Site Design Wire Frame" src="/images/medium_revised.JPG">
+                <img id="wire_frame_large" alt="Large Web Site Design Wire Frame" src="/images/large_revised.JPG">
+            </div>
+            </div>
+        <footer id="page-footer">
+        </footer> 
+        </div>
+ <script
+  src="/js/jquery-3.1.1.min.js"></script>
+<script src="/homework/modules.js"></script>
+<script src="/js/search.js"></script>
+        <noscript>Your browser does not support JavaScript</noscript>
+    </body>
+</html>

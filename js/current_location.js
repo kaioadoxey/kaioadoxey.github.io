@@ -153,7 +153,7 @@ $(function () {
       $("#hr_temp21").html(temp21+ "&deg;" + "F");
       $("#hr_temp22").html(temp22+ "&deg;" + "F");
       $("#hr_temp23").html(temp23+ "&deg;" + "F");
-      
+      console.log(data)
 
   }
     });

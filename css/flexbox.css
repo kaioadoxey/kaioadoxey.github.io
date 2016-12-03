@@ -5,13 +5,27 @@
     #forcast{
         display: none;
     }
-    form{
-        display: none;
+    #search1{
+        display: flex;
     }
+    #srchfrm{
+        align-content: center;
+    }
+/*
     #news{
         display: none;
     }
+*/
     #map{display: none;}
+    #news{
+        background-color: lightseagreen;
+    }
+    #current_location{
+        background-color: lightskyblue;
+    }
+    #search{
+        background-color: lightgrey; 
+    }
 }
 html *{
     box-sizing: border-box;
@@ -39,6 +53,9 @@ header{
     margin: 0%;
     order: 1;
 }
+#searchResults{
+    background-color: darkslateblue;
+}
 #home{
     width: 48.719px;
     height: 48.719px;
@@ -48,16 +65,18 @@ header{
     top:1px;
     border: 1px solid floralwhite;
 }
+/*
 #search{
     position: absolute;
     right: 0%;
     top: 0%;
 }
+*/
 nav{
     order: 3;
     background-color: darkslateblue;
 }
-#nav{
+.nav{
     display: flex;
 }
 ul {
@@ -269,11 +288,18 @@ p{
     #wire_frame_small{display: none;}
     #wire_frame_large{display: none;}
     #map{display: none;}
-    form{display: none;}
+/*    form{display: none;}*/
     #forcast{display: none;}
     
     nav{
         order: +1;  
+    }
+    form{
+        position:absolute;
+        right:1px;
+        top:1px;
+        display: block;
+        margin-top: 0em;
     }
     #wireframe{
         width: 50%;
@@ -281,11 +307,13 @@ p{
     #main{
         width: 50%;
     }
-    #nav{
+/*
+    .nav{
         position: relative;
         left: 15%;
         width: 85%;
     }
+*/
     .links{
         width: 150px;
         height: 10px;
@@ -338,6 +366,9 @@ p{
     .hr_temp{
         text-align: right;
     }
+        #nav{
+        display: flex;
+    }
 }
 @media screen and (min-width: 820px){
     #wire_frame_medium{display: none;}
@@ -370,11 +401,13 @@ p{
         border: none;
         border-left: 1px solid black;
     }
-    #nav{
+/*
+    .nav{
         position: relative;
         left: 40%;
         width: 60%;
     }
+*/
   #home{
     width: 15%;
       
@@ -433,5 +466,8 @@ p{
         position: relative;
         top:7px;
         left:5px;
+    }
+    #nav{
+        display: flex;
     }
 }

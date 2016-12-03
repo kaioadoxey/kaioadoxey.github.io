@@ -2,15 +2,22 @@
     <div id="home">
         <a id="home1" href = /index.html title = "Home"><div id="small_hide1">Home</div><div id=home2><img id="home_icon" alt="the logo for kaioadoxey.github.io" src="/images/069673-blue-metallic-orb-icon-alphanumeric-letter-k.png"></div></a>
     </div>
-    <div id=search><img id="search_icon" alt="search" src="/images/search-icon-white.png"></div>            
-        <form>
-            <input id='txtSearch' type="text" name="search" placeholder="Search..">
-        </form>
+    <div id=search1></div>            
+    <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+        <input type="search" name="query" id="query">
+        <input type="submit" name="submit" value="Search" id="send">
+    </form>
     </div>
-        <ul id="nav">
-            <li class="links" id="greenville"><a href = "/homework/greenville_weather.html" title = "Greenville Weather"><span class="link_box">Greenville Weather</span></a></li>
-            <li class="links" id="springfield"><a href = "#" title = "Springfield Weather"><span class="link_box">Springfield Weather</span></a></li>
-            <li class="links" id="hourly"><a href = "/homework/franklin_weather.html" title = "Franklin Weather"><span class="link_box">Franklin Weather</span></a></li>
+<div id="nav">
+        <ul class="nav" id="nav1">
+            <li class="links" id="greenville"><a href = "/homework/greenville_weather.html" title = "Greenville Weather"><span class="link_box">Greenville</span></a></li>
+            <li class="links" id="springfield"><a href = "#" title = "Springfield Weather"><span class="link_box">Springfield</span></a></li>
+            <li class="links" id="hourly"><a href = "/homework/franklin_weather.html" title = "Franklin Weather"><span class="link_box">Franklin</span></a></li>
+        </ul>
+        <ul class="nav" id="nav2">
             <li id="news" class="links"><a href = "https://weather.com/weather/tenday/l/Franklin+ID+83237:4:US" title = "News Link"><span class="link_box">News</span></a></li>
             <li id="current_location" class="links"><a href = "/homework/index.html" title = "Current Weather"><span class="link_box">Current Location</span></a></li>
-        </ul>            
+            <li id="search" class="links"><a href = "/homework/search.html" title = "search"><span class="link_box">search</span></a></li>
+        </ul> 
+    </div>
+<script src="/js/search.js"></script>
