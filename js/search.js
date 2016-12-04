@@ -97,7 +97,7 @@ $( "#searchResults" ).click(function(getData) {
   var temp22 = data['hourly_forecast']['22']['temp']['english'];
   var temp23 = data['hourly_forecast']['23']['temp']['english'];
  
-      $("#title").html(location);
+      $("#title").html(location + ", "+ state);
       $("#current").html(Math.round(temp_f) + "&deg;" + "F");
       $(".high_low").html(high + "&deg;" + "F" + "/" + low + "&deg;" + "F");
       $("#Summary").html(condition);
