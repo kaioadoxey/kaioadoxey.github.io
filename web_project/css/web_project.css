@@ -1,0 +1,381 @@
+
+html *{
+    box-sizing: border-box;
+}
+*:before, *:after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: white;
+    width: 100%;
+    margin: 0%;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+}
+#main{
+    background-color: rgb(16,21,71);
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+header{
+    width: 100%;
+}
+nav{
+    display: flex;
+    border: 1px solid rgb(16,21,71);
+    width: 100%;
+}
+#logo{
+    display: flex;
+    margin: 10%
+    }
+.links{
+    display: flex;
+    list-style-type:none;
+    flex-grow: 2;
+    margin: 1%;
+    padding-left: 10px;
+    border-left: 1px solid black;
+    align-self: center;
+    font-size: 1.2em;
+}
+h2 a{
+    color: rgb(16,21,71);
+}
+a:hover {
+    color: rgb(51,102,243);
+    }
+li a{
+    color: rgb(255,161,67);
+}
+li a:hover{
+    color: rgb(51,102,243);
+}
+ul li{
+    list-style-type: none;
+    text-align: center;
+    color: rgb(16,21,71);
+}
+.sec{
+    display: flex;
+    position: relative;
+    top: 65px;
+    flex-wrap: wrap;
+}
+
+.prod_sec{
+    display: flex;
+}
+.par{
+    height: 30px;
+    color: rgb(16,21,71);
+    font-size: 1.5em;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+.discription{
+    text-align: center;
+    color: rgb(16,21,71);
+}
+
+#link{
+    display: flex;
+    padding: 0px;
+    width: 80%;
+    height: 60px;
+}
+#home_image{
+    width: 100%;
+}
+
+#video{
+    width 100%;
+}
+h2{
+    text-align: center;
+}
+.prod_item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.hedings{
+    text-align: center;
+    color: rgb(16,21,71);
+}
+.item_ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#foot_link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.li{
+    width: 25%;
+}
+.reg{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(16,21,71);
+}
+ol{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(16,21,71);
+}
+/*
+#feat_llamas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+*/
+.feature{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+}
+.feat_img{
+    flex-shrink: 5;
+    
+}
+.featured_img{
+    width: 400px;
+}
+.namel{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(16,21,71);
+    font-style: oblique;
+}
+.name{
+    text-align: center;
+    font-size: 1.1em;
+    flex-wrap: wrap;
+    color: rgb(16,21,71);
+    font-style: oblique;
+}
+
+
+@media screen and (max-width: 602px) and (min-width: 0px){
+    .mobile_hide{
+        display: none;
+    }
+    #logo{
+        width: 60%;
+        margin: 1%;
+    }
+    section{
+        width: 100%;
+    }
+    #row1{
+        width: 100%;
+    }
+    #row2{
+        width: 100%;
+    }
+    
+    li a:visited{
+        color: rgb(16,21,71);
+    }
+
+    a:visited{
+        color: rgb(255,161,67);
+    }
+    .prod_sec{
+        display: block;
+    }
+    .sec{
+        margin-left: 18%;
+        margin-right: 18%;
+        position: relative;
+        top: 0px;
+    }
+    .item_img{
+        margin: 10px;
+    }
+    .par{
+       display: none;
+    }
+    .feature{
+        display: flex;
+        flex-direction: column;
+        margin: 3%;
+    }
+    .featured_img{
+        width: 100%;
+    }
+    #foot_link{
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+    .li{
+        width: 100%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 820px) and (min-width: 602px){
+    
+    #logo_link{
+        display: flex;
+        margin: 1%;
+        margin-right: 5%;
+        height: 60px;
+    }
+    .links{
+        flex-shrink: 1;
+        margin: auto;
+    }
+    #link{
+        margin: 0%;
+        width: 40%;
+        align-self: flex-end;
+        position: relative;
+        left: 45%;
+    }
+    #logo{
+        height: 60px;
+        margin: 0%;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    li a:visited{
+        color: rgb(16,21,71);
+    }
+
+    a:visited{
+        color: rgb(255,161,67);
+    }
+    #video{
+        width: 100%;
+    }
+    video{
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+        
+    }
+    #products{    
+        display: flex;
+    }
+    #section_image{
+        width: 100%;
+        padding: 1%;
+        margin: 1%;
+    }
+    #row1{
+        display: flex;
+        flex-direction: column;
+        align-self: auto;
+        width: 48%;
+        margin:auto;
+    }
+    #row2{
+        display: flex;
+        flex-direction: column;
+        align-self: auto;
+        width: 48%;
+        margin: auto;
+    }
+    .featured_img{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 820px){
+    header{
+        background-color: white;
+    }
+    #layer{
+        width: 80%;
+        margin: auto;
+        background-color: white;
+    }
+    body{
+        background-color: rgb(16,21,71);
+    }
+    #main{
+        background-color: rgb(16,21,71);
+    }
+    #logo_link{
+        margin: 1%;
+        margin-right: 5%;
+        height: 60px;
+    }
+    #logo{
+        height: 60px;
+        margin: 0%;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    .links{
+        padding-left: 10%;
+        text-align: center;
+    }
+     #link{
+        margin: 0%;
+        width: 40%;
+        align-self: flex-end;
+        position: relative;
+        left: 45%;
+    }
+    #products{    
+        display: flex;
+    }
+    #row1{
+        display: flex;
+        flex-direction: column;
+    }
+    #row2{
+        display: flex;
+        flex-direction: column;
+    }
+    #row1{
+        width: 46%;
+        margin: auto;
+        
+    }
+    #row2{
+        width: 46%;
+        margin: auto;
+    }
+    #video{
+        width: 100%;
+    }
+    video{
+        width: 60%;
+        margin-right: 20%;
+        margin-left: 20%;
+        
+    }
+    .prod_item{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .discrip{
+        margin-left: 30px;
+    }
+    
+}

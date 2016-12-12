@@ -1,0 +1,212 @@
+{
+	"0": {
+		"name": "Burgandy, Womens, Llama fur <br>Jacket",
+		"price": "$ 525.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "This Jacket is available in other colors <br>on request. the llama fur used is <br>increadably soft and comfortable.",
+        "picture":"/web_project/images/womens_jacket.jpg"
+	},
+	"1": {
+		"name": "Black Llama fur lined Jacket",
+		"price": "$ 619.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "Other sizes available on request <br>Gold buttons, with Black fur used.",
+        "picture":"/web_project/images/womens_jacket1.jpg"
+	},
+	"2": {
+		"name": "Llama fur Weaved Orange Skirt",
+		"price": "$ 449.99",
+		"size": "sizes 2-16",
+		"discription": "Extra long super soft skirt <br>Other colors available on request.",
+        "picture":"/web_project/images/womens_skirt.jpg"
+	},
+    "3": {
+		"name": "Multi color Llama fur knit blanket <br>scarf",
+		"price": "$ 299.99",
+		"size": "One size fits all",
+		"discription": "Actual pattern may very.<br> No other colors available.",
+        "picture":"/web_project/images/womens_blanket_scarf.jpg"
+	},
+    "4": {
+		"name": "Orange loose knit infinity scarf",
+		"price": "$ 199.99",
+		"size": "One size fits all",
+		"discription": "Llama fur yarn which has been <br>knit loosly to an infinity scarf. <br>Other colors available on request.",
+        "picture":"/web_project/images/womens_infinity_scarf.jpg"
+	},
+    "5": {
+		"name": "Extra large gray knit infinity scarf",
+		"price": "$ 249.99",
+		"size": "One size fits all",
+		"discription": "Other colors available on request. <br>This scarf is tighter knit with longer <br> length meant to be double wraped.",
+        "picture":"/web_project/images/womens_large_infinity_scarf.jpg"
+	},
+    "6": {
+		"name": "Womens Llama fur sweater pants",
+		"price": "$ 559.99",
+		"size": "Sizes 2-16",
+		"discription": "super soft, great for lounging. <br>Colors and design may very. <br>Other sizes available on request. ",
+        "picture":"/web_project/images/womens_pants.jpg"
+	},
+    "7": {
+		"name": "Mens Purple Tite knit Poncho",
+		"price": "$ 499.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "Soft Llama fur Knit sweater <br>other colors available on request.",
+        "picture":"/web_project/images/mens_poncho.jpg"
+	},
+    "8": {
+		"name": "Mens knit sweater",
+		"price": "$ 449.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "This tite Knit sweater is soft because <br>it is made from 100% Llama fur.",
+        "picture":"/web_project/images/mens_sweater.jpg"
+	},
+    "9": {
+		"name": "Dark blue long sleave pull over shirt",
+		"price": "$ 349.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "Ultra tite weaved fabric makes this shirt <br>the most comfortable shirt you can buy. <br>Other colors available on request.",
+        "picture":"/web_project/images/mens_shirt.jpg"
+	},
+    "10": {
+		"name": "Mens Plad long sleave button up",
+		"price": "$ 349.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "Tite weaved Llama fur. Other colors <br>available on request.",
+        "picture":"/web_project/images/mens_shirt1.jpg"
+	},
+    "11": {
+		"name": "Ultra soft mens blue jacket",
+		"price": "$ 549.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "Llama fur lined jacket. Other <br>colors available on request.",
+        "picture":"/web_project/images/mens_jacket.jpg"
+	},
+    "12": {
+		"name": "Mens gray knit hat",
+		"price": "$ 149.99",
+		"size": "One size fits most",
+		"discription": "Semi loose knit hat. Other <br>solid colors available",
+        "picture":"/web_project/images/mens_hat.jpg"
+	},
+    "13": {
+		"name": "Mens striped knit hat",
+		"price": "$ 149.99",
+		"size": "One size fits most",
+		"discription": "Semi loose knit hat. Other <br>striped colors available",
+        "picture":"/web_project/images/mens_hat1.jpg"
+	},
+    "14": {
+		"name": "Fur lined slippers",
+		"price": "$ 199.99",
+		"size": "Most shoe sizes available on request",
+		"discription": "Great black llama fur lined slippers. <br>Other limitted colors available upone request.",
+        "picture":"/web_project/images/mens_shoes.jpg"
+	},
+    "15": {
+		"name": "Fur lined slippers",
+		"price": "$ 199.99",
+		"size": "Most shoe sizes available on request",
+		"discription": "Great black llama fur lined slippers. <br>Other limitted colors available upone request.",
+        "picture":"/web_project/images/mens_shoes.jpg"
+	},
+    "16": {
+		"name": "Blue and Gray striped scarf",
+		"price": "$ 149.99",
+		"size": "One size fits all",
+		"discription": "soft Llama fur knit mens scarf <br> other colors available on request",
+        "picture":"/web_project/images/mens_scarf.jpg"
+	},
+    "17": {
+		"name": "Stuffed llama fur llama",
+		"price": "$ 99.99",
+		"size": "24 in. tall",
+		"discription": "This stuffed toy is made with 100% Llama <br>fur. Available in other colors on request",
+        "picture":"/web_project/images/other_stuffed_toy.jpg"
+	},
+    "18": {
+		"name": "Medium Pillow",
+		"price": "$ 249.99",
+		"size": "24 in. x 24 in.",
+		"discription": "This is a soft llama fur pillow stuffed <br>with goose down.",
+        "picture":"/web_project/images/pillow.jpg"
+	},
+    "19": {
+		"name": "Large Pillow Set",
+		"price": "$ 449.99",
+		"size": "24 in. x 36 in.",
+		"discription": "This is a soft llama fur pillow stuffed <br>with goose down.",
+        "picture":"/web_project/images/pillows.jpg"
+	},
+    "20": {
+		"name": "Stuffed Llama Fur Bear",
+		"price": "$ 99.99",
+		"size": "14 in tall",
+		"discription": "This stuffed toy is made with 100% Llama <br>fur. Available in other colors on request",
+        "picture":"/web_project/images/stuffed_bear.jpg"
+	},
+    "21": {
+		"name": "Llama Toy ",
+		"price": "49.99",
+		"size": "8 in. tall",
+		"discription": "made of durable plastic and llama fur. This <br>toy is the perfect mix of fun and comfort.",
+        "picture":"/web_project/images/llama_toy.jpg"
+	},
+    "22": {
+		"name": "Brown fur blanket",
+		"price": "$ 299.99",
+		"size": "48 in. x 64 in.",
+		"discription": "made with 100% pure llama fur. Other <br>colors available on request. ",
+        "picture":"/web_project/images/blanket.jpg"
+	},
+    "23": {
+		"name": "Llama Fur Seat Cushion",
+		"price": "$ 149.99",
+		"size": "One sixe for all",
+		"discription": "Ultra soft seat, made with 100% real <br>llama fur, and filled with memory foam, <br>for maximum comfort.",
+        "picture":"/web_project/images/other_seat.jpg"
+	},
+    "24": {
+		"name": "Baby girl fall Jacket",
+		"price": "$ 199.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "Fur lined pink fall jacket. Available in <br>other colors on request.",
+        "picture":"/web_project/images/baby_jacket.jpg"
+	},
+    "25": {
+		"name": "Baby girl jump suit",
+		"price": "$ 249.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "Fully covered for maximum warmth. Inside <br>lined with llama fur for your childs maximum <br>comfort.",
+        "picture":"/web_project/images/baby_jumper.jpg"
+	},
+    "26": {
+		"name": "Baby Girl Vest",
+		"price": "$ 199.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "Pink fur lined vest. Available in youth sizes, <br>also available in other colors on request.",
+        "picture":"/web_project/images/baby_vest.jpg"
+	},
+    "27": {
+		"name": "Ultra soft mens blue jacket",
+		"price": "$ 349.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "Ultra tite weaved fabric makes this shirt <br>the most comfortable shirt you can buy. <br>Other colors available on request.",
+        "picture":"/web_project/images/mens_jacket.jpg"
+	},
+    "28": {
+		"name": "Baby girl sweater pants",
+		"price": "$ 199.99",
+		"size": "XS, S, M, L, XL",
+		"discription": "super soft, great for lounging. <br>Colors and design may very. <br>Other sizes available on request.",
+        "picture":"/web_project/images/womens_pants.jpg"
+	},
+    "29": {
+		"name": "Fur lined slippers",
+		"price": "$ 199.99",
+		"size": "Most shoe sizes available on request",
+		"discription": "Great black llama fur lined slippers. <br>Other limitted colors available upone request.",
+        "picture":"/web_project/images/mens_shoes.jpg"
+	}
+}
