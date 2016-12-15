@@ -29,6 +29,7 @@ nav{
     display: flex;
     border: 1px solid rgb(16,21,71);
     width: 100%;
+    background-color: white;
 }
 #logo{
     display: flex;
@@ -377,5 +378,21 @@ ol{
     .discrip{
         margin-left: 30px;
     }
-    
+    #small{
+        width: 35%;
+    }
+    #medium{
+        width: 25%;
+    }
+    #large{
+        width: 39%;
+    }
+    #wire_frame{
+        display: flex;
+        
+    }
+    .wire_frame{
+        width: 33%;
+        text-align: center;
+    }
 }
