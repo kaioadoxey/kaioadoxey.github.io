@@ -185,6 +185,9 @@ ol{
         width: 60%;
         margin: 1%;
     }
+    .featured-video{
+        width: 100%;
+    }
     section{
         width: 100%;
     }
